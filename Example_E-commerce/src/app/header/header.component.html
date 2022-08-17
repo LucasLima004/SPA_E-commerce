@@ -1,0 +1,40 @@
+<header class="main-header">
+    <h1 class="main-header__title">
+        <span class="main-header__title--blue">Example</span><span class="main-header__title--orange">E-commerce</span>
+    </h1>
+    <div class="container-menu">
+        <nav class="main-header__menu">
+            <ul>
+                <li>
+                    <a (click)="produto()">Produtos</a>
+                </li>
+                <li>
+                    <a (click)="carroDeCompras()">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Carrinho
+                        <span class="badge-carrinho">{{carrinhoService.obtemCarrinho().length}}</span>
+                    </a>
+                </li>
+                <li>
+                    <a (click)="contato()">Contato</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <app-barra-pesquisa></app-barra-pesquisa>
+    </div>
+</header>
