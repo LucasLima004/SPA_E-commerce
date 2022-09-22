@@ -7,8 +7,8 @@
 <h3 align="center">Single page application of e-commerce.</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Development-blue"/>
-  <img src="https://img.shields.io/github/issues/LucasLima004/Project_and_Task_Manager"/>
-  <img src="https://img.shields.io/github/license/LucasLima004/Project_and_Task_Manager"/>
+  <img src="https://img.shields.io/github/issues/LucasLima004/SPA_E-commerce"/>
+  <img src="https://img.shields.io/github/license/LucasLima004/SPA_E-commerce"/>
   <a target="_blank" href="https://api.whatsapp.com/send?phone=5581992160054&text=Ol%C3%A1%2C%20estou%20interessado(a)%20nos%20seus%20servi%C3%A7os.">
      <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="80px"/>
   </a>
